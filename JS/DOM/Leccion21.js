@@ -1,6 +1,6 @@
 //! LECCION 21 - FORMAS DE OBTENER ELEMENTOS
 
-    //! IGNORAR SI DA ERROR - PROBLEMA DE QUOKKA
+    //! IGNORAR SI MARCA ERROR - PROBLEMA DE LA EXTENSION DE QUOKKA (SI LA TIENES INSTALADA)
     
     //* getElementById -> Retorna el objeto con el ID correspondiente 
     //Guardo el texto del elemento
