@@ -1,0 +1,6 @@
+//! CONCEPTO:
+//! DOM (DOCUMENT OBJECT MODEL) 
+//! FUNCIONA COMO LA ESTRUCTURA DE ABROL 
+
+//! LECCION 20 - PRIMER INTERACCION CON DOM
+    console.log('Primer interaccion con DOM');
