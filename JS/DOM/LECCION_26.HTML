@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leccion 26</title>
 </head>
-<body>
-    <h1>Manejo de Eventos</h1>
+<body onload="cargando()">
+    <h1 onmouseover="cambiaRojo(this)" onmouseout="cambiaAzul(this)">Manejo de Eventos</h1>
 
     <!--Se puede utilizar Eventos directamente en la etiqueta HTML-->
     <!--THIS hace referencia a si mismo, como un objeto con sus propiedades-->
@@ -17,12 +17,13 @@
     <!--El argumento THIS hace referencia a si mismo, al elemento-->
     <h2 onclick="cambiarTexto(this)">Este es mi otro H2</h2>
 
-    
-
     <div class="demo">
         <p id="first">First</p>
         <p id="second">Second</p>
     </div>
+
+    <label for="in">Nombre: </label>
+    <input type="text" name="in" placeholder="Nombre..." onchange="cambiar(this)">
 
     <script src="Leccion26.js"></script>
 </body>

@@ -3,8 +3,6 @@
 ## Registrar usuario a git
 ```
 
-
-
 ```
 * **git config --global user.name "Nombre"**
 *NO COLOCAR COMO NOMBRE DE USUARIO EL CORREO DE GITHUB* 
@@ -25,7 +23,7 @@
 * **git log --oneline** - Muestra en una linea los commit realizados
 * **git log --oneline --decorate --all --graph** - Muestra en una linea los commit realizados pero mas bonitos uwu
 
-Diferencias entre -- y - 
+Diferencias entre "--" y "-" 
 -- decorate hace referencia a una palabra
 -s hace referencia al comando o varios comandos, -sa serian dos comandos distintos
 
