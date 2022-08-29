@@ -1,6 +1,5 @@
 
     //! LECCION 26 - MANEJO DE EVENTOS
-
     
     /* 
         !EVENTOS:
@@ -9,6 +8,10 @@
         ONCHANGE: Cuando detecta un cambio en el elemento
         ONMOUSEOVER: Cuando pasas el cursor encima del elemento o de sus hijos
         ONMOUSEOUT: Cuando quitas el cursor que esta encima del elemento o de sus hijos
+        ONMOUSEDOWN: Cuando mantienes el click del raton
+        ONOMOUSEUP: Cuando dejas de presionar click sobre el elemento
+        ONFOCUS: Cuando se focusea al elemento
+        ONBLUR: Cuando se deja de focusear al elemento 
     */
 
     //* Recibo por parametros el elemento HTML, en este caso un H2
@@ -70,7 +73,7 @@
         //! Ya sea dando click en otro elemento o TAB o ENTER
 
         // Convertir todos los caracteres a MAYUSCULAS
-        function cambiar(elem) {
+        function cambiarMayus(elem) {
             elem.value = elem.value.toUpperCase();
         }
 
@@ -89,6 +92,28 @@
             elem.style.color = 'blue';
         }
 
+        //!ONEMOUSEDOWN
+        //* Cuando mantienes el click
+        function cambiarAmarillo(elem) {
+            elem.style.color = '#fd0';
+        }
 
+        //!ONEMOUSEUP
+        //* Cuando sueltas el click
+        function cambiarVerde(elem) {
+            elem.style.color = 'green';
+        }
 
+        //!ONFOCUS
+        //* Cuando focuseas a un elemento
+        function cambiarLargo(elem) {
+            elem.style.width = '600px';
+        }
+
+        //!ONBLUR
+        //* Cuando dejas de focusear a un elemento
+        function cambiarFondoRojo(elem) {
+            elem.style.width = '200px';
+            elem.style.background = 'red';
+        }
 
