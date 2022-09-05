@@ -1,0 +1,11 @@
+Paso 1:
+Crear archivo TS
+
+Paso 2:
+Indicar al IDE que es typescript: tsc -init
+
+Paso 3.1:
+Compilar manualmente: tsc fileName(.ts)
+
+Paso 3.2 (opcional-recomendado):
+Compilar automaticamente: tsc -w 
