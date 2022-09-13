@@ -9,3 +9,15 @@ Compilar manualmente: tsc fileName(.ts)
 
 Paso 3.2 (opcional-recomendado):
 Compilar automaticamente: tsc -w 
+
+Paso 4:
+Instalar el webpack para inizializar la aplicacion:
+npm install webpack webpack-cli webpack-dev-server
+
+Paso 5:
+Instalar ts loader para cargar las clases:
+npm install typescript ts-loader --save-dev
+
+Paso 6:
+Generar package.json:
+npm init -y
