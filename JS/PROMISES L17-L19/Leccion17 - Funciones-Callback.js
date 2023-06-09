@@ -46,7 +46,7 @@ function funcionCallback() {
 }
 
 //Despues de 3 se ejecuta
-// setTimeout(funcionCallback, 3000); 
+setTimeout(funcionCallback, 3000); 
 
 //!SETINTERVAL
 
@@ -55,4 +55,4 @@ let reloj = () => {
     console.log(`${fecha.getHours()} : ${fecha.getMinutes()} : ${fecha.getSeconds()}`);
 };
 
-// setInterval(reloj, 1000);
+setInterval(reloj, 1000);
