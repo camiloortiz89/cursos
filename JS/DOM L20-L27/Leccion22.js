@@ -1,4 +1,3 @@
-
 //! LECCION 22 - INTERCCION CON FORMS
 
 function showData() {
@@ -17,5 +16,4 @@ function showData() {
 }
 
 //*ACCEDER INDIVIDUALMENTE A CADA ELEMENTO
-//form[NAME_INPUT] - form['nombre'] -> Guarda el input nombre
-// del form
+//form[NAME_INPUT] - form['nombre'] -> Guarda el input nombre del form
