@@ -3,7 +3,7 @@
 
 //Muestra de N a 0 descendentemente, si a es menor a 0 termina la funcion
 // const conteoRegresivo = (a) => {
-//     if (a < 0) return
+//     if (a < 0) return //Condicion de salida
 //     console.log(a);
 //     return conteoRegresivo(a - 1);
 // }
