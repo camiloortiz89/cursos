@@ -22,7 +22,7 @@ console.log('-----------------------------------------');
 
 console.log('Indexar los objetos por nombre de mascotas');
 const indexed = mascotas.reduce((acc, el) => ({
-    ...acc,
+    ...acc, //copia las propiedades anteriores, no pierde el registro
     [el.nombre]: el,
 }), {});
 console.log(indexed);
